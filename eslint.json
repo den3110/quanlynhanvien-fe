@@ -1,0 +1,4 @@
+{
+    "plugins": ["import"],
+    "extends": ["plugin:import/recommended"]
+}

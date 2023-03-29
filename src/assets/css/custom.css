@@ -1,0 +1,217 @@
+
+/* input % */
+.input-box {
+    display: flex;
+    align-items: center;
+ 
+    background: #fff;
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  .input-box .prefix {
+    font-weight: 300;
+    width: 50px;
+    color: #999;
+  }
+  
+  .input-box input { 
+    flex-grow: 1; 
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+  }
+
+  /*  back */
+  .back{
+    background-color: rgb(176, 177, 164);
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* import page project */
+  .import-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .import{
+    background-color: #b5ba36;
+    width: 70px; 
+    border-radius: 5px;
+    text-align: center;
+    color: #fff; 
+    height: 22px  ;
+    cursor: pointer;
+  }
+
+  .import-name{
+    color: #03c5fb;
+    font-weight: 600;
+  }
+
+  .page-payslip {
+    padding: 10px;
+    text-decoration: underline;
+    color: #0d6efd; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+
+  .close-x {
+    /* background-color: #03c5fb;   */
+    border: none;
+    border-radius: 50%;
+    color: rgb(200, 42, 42);
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    z-index: 99;
+  }
+
+
+  /* name worker page projet */
+
+  .worker-name{
+    font-size: 17px;
+  }
+
+  /* dialog body from project */
+
+  .body-dialog {
+    max-height: 400px;
+  }
+
+  .content-media {
+    display: flex;
+  }
+
+  .assign-button { 
+    text-align: center;
+    background-color: #1f688c;
+    cursor: pointer; 
+    /* background-color: #ddd; */
+  }
+
+  .button-circle {
+    margin-top: 20px;
+  }
+  
+  .plus-assign {
+    color: #fff;
+    font-size: 20px;  
+  }
+
+
+  /* dialog */
+  .button-dialog {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .primary {
+    background-color: #0d6efd;
+    border: 6px solid #0d6efd;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px; 
+  }
+
+  .content-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .payslip-link {
+    width: 100%;
+    text-align: center;
+    color: #00c5fb;
+    font-size: 12px;
+    text-decoration: underline;
+  }
+
+
+  .account-box-12 {
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+    margin: 0 auto;
+    overflow: hidden;
+    width: 700px;
+  }
+
+  .remove-x {
+    font-size: 15px;
+    color: red;
+    font-weight: 600;
+  }
+
+  .color {
+    background-color: #b5ba36;
+  }
+  
+  .text-blue {
+    color: #0d6efd; 
+  }
+
+  .title-between {
+    display: flex;
+    justify-content:space-between;
+  }
+ 
+
+  .overflow {
+    height: 400px;
+    overflow: auto;
+  }
+
+  .overflow-setting {
+    height: 600px;
+    overflow: auto;
+  }
+
+
+  .background-blue {
+    background-color: #0d6efd;
+  }
+
+  .background-info {
+    background-color:#66d3ea;
+  }
+
+  .underline-red {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+
+  .round-span {
+    width: 25px;
+    height: 25px; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 20px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold; 
+  }
+ 
